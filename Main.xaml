@@ -1,0 +1,159 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="850.4,1181.6" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Net</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Net.Primitives</AssemblyReference>
+      <AssemblyReference>System.Net.HttpListener</AssemblyReference>
+      <AssemblyReference>System.Net.WebProxy</AssemblyReference>
+      <AssemblyReference>System.Net.NameResolution</AssemblyReference>
+      <AssemblyReference>System.Net.WebClient</AssemblyReference>
+      <AssemblyReference>System.Net.Requests</AssemblyReference>
+      <AssemblyReference>System.Net.ServicePoint</AssemblyReference>
+      <AssemblyReference>System.Net.WebHeaderCollection</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="545.6,1116.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="Username">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">ian.medici</Literal>
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Online Daily Time Record" sap:VirtualizedContainerService.HintSize="483.2,1004.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="a0886555-c4cb-47c5-b8e8-b092bf2aaed1" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,788" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Private: Type Into 'Username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="a0886555-c4cb-47c5-b8e8-b092bf2aaed1" Text="[Username]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://odtr.awsys-i.com/rp-odtr/DTRMainLoginv2.aspx" DesignTimeRectangle="936, 401, 194, 22" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'INPUT MainContent_textU…'" FullSelectorArgument="&lt;webctrl parentid='MainContent_panelLogin' tag='TABLE' /&gt;&lt;webctrl id='MainContent_textUserID' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='MainContent_panelLogin' tag='TABLE' /&gt;&lt;webctrl id='MainContent_textUserID' type='text' tag='INPUT' class='TEXTBOX_INPUT_STRING' aaname='' /&gt;" Guid="7795a4ad-2064-45f9-b0be-8dd4b504c22b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMYAAAAaCAYAAADsZyMJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAD9SURBVHhe7dvBDYMwEERR6IALiNpogWIphAIQXDYZhB1LDCkA/yftJTi3/RKR4iYA3BAGYOQwtm2LZVlimqYYxzG6rmOY1492XTuv3d/3/aqhCEMP+r63X2aYt88wDGcDSQ5D1ejAPM/Rtu31KfBu67qeO6/dVwNJDiO9Pulg0/DTA/XQzmv31UCSC9ADjRAGalPuvxAG8EUYgEEYgEEYgEEYgEEYgEEYgEEYgEEYgEEYgEEYgEEYgEEYgPEYBn87R63+/u28vKikg0ANtOt/LyrpWp+u9+kAw9Q2j1dbdRFcD1RNeq1imLePdl07r90/juOqoQgDwA9hADcRH3xnxgOvDZHkAAAAAElFTkSuQmCC" InformativeScreenshot="4d6a62e53a51dd9c707c2184195989b4.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Online Daily Time Record' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="834, 403, 73, 17" ElementType="Text" FriendlyName="'Username'" FullSelectorArgument="&lt;webctrl parentid='MainContent_panelLogin' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='MainContent_panelLogin' tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='Label_Row_Title' aaname='Username' check:innerText='Username' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAE0AAAAVCAYAAAAD1GMqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABBSURBVFhH7dAxAQAwEAOh+jedavibQQJvnEkLpAXSAmmBtEBaIC2QFkgLpAXSAmmBtEBaIC2QFkgLpAXSAmln2wfmfyw0dxXkEgAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Private: Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="a0886555-c4cb-47c5-b8e8-b092bf2aaed1" Text="@IanMedici7" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://odtr.awsys-i.com/rp-odtr/DTRMainLoginv2.aspx" DesignTimeRectangle="936, 425, 194, 22" DesignTimeScaleFactor="1.25" ElementType="InputBoxPassword" FriendlyName="'INPUT MainContent_textP…'" FullSelectorArgument="&lt;webctrl parentid='MainContent_panelLogin' tag='TABLE' /&gt;&lt;webctrl id='MainContent_textPassword' tableRow='2' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='MainContent_panelLogin' tag='TABLE' /&gt;&lt;webctrl id='MainContent_textPassword' type='password' tag='INPUT' class='TEXTBOX_INPUT_STRING' aaname='' /&gt;" Guid="26cd875b-03ea-4148-ab23-08c0995490ae" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMYAAAAaCAYAAADsZyMJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACoSURBVHhe7duxDYNQEERBl0BISj10QCG0ST2QnPWtD0jWygWYGWk7uBfeq7p932vbtlqWpcZxrGEYzP5+7dbbzbfbP46j11B1hQHchAHBFcY0TWaP3jzPvQZhmH3WoljXtdcQwoAnalEIA74IAwJhQCAMCIQBgTAgEAYEwoBAGBAIAwJhQCAMCIQBgTAgEAYEwoBAGBD8DON87zN76k5XGKIwC2EAp6o3060YcWpJa2UAAAAASUVORK5CYII=" InformativeScreenshot="8ac30b68267e5d81a7a1bf996e22a733.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Online Daily Time Record' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="836, 427, 70, 17" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;webctrl parentid='MainContent_panelLogin' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='MainContent_panelLogin' tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='Label_Row_Title' aaname='Password' check:innerText='Password' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEoAAAAVCAYAAADhCHhTAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAH4SURBVFhH7ZbNccIwEIXdEV1ACaYDKnADdMGdAlwERVAEvvqqzAe8mWexIoqTE9E3o4nZ1f49STPpUqOKJlQlTahKmlCVNKEqWQh1uVxS13XhOhwOaZ7n587P5ng8vsz7ItRms0nX6/VpeUAAgf9FrNVCAbbtdhv6Po1fC4WPPaBb5s+TAg6/3X8+n5+eByV/1EdkI95r5vnUK9xut7Tf79PpdLr7PJfHMdMwDOuFcp9E8iax49ew+LyY/Gr+nZ+hdrvdYlANI5t6oJ6+iSEW2Of7ldP3AHndRj4Jpt6gSigVUTD+/BmqWQr7d8RP/dTnNlBTB+E9lPomXj1rBsUD+/3wQLUVJ16E0hXMV2koFcv36WTyExQ1fjVLDZ4Dz0Y29/Md5XEBJZSLwncU5wKL6qfnkIBELo5sLmgufF78nZ8edGMQgsU3N4vBqIMNXDTH54mEKgkc5VslVLQvEsqRKLV+Hwwbf2Ubx3ExdGlg/LJ7PuF+h3p/IlSkODHEloSA0smL3K+GWQyjw+j7fjFgqW8fOBJKPbtNNRQnVt8oTl8FlFzPZ5qm+18XTY0ihvaX/EJ1vGn8+c1Uvlw87zESCsjjccrvNWGVUKCEWvz2oi6eVjRcyQ868Ui8fGAgXrnyOUpCgcfR07f/RzXKNKEqaUJV0oSqIqUv1z7MZ4AhSHgAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a0886555-c4cb-47c5-b8e8-b092bf2aaed1" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://odtr.awsys-i.com/rp-odtr/DTRMainLoginv2.aspx" DesignTimeRectangle="910, 409, 125, 30" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Login'" FullSelectorArgument="&lt;webctrl idx='2' parentid='MainContent_panelLogin' tag='TABLE' /&gt;&lt;webctrl id='MainContent_buttonLogin' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='MainContent_panelLogin' tag='TABLE' /&gt;&lt;webctrl id='MainContent_buttonLogin' type='submit' tag='INPUT' class='BUTTON' aaname='Login' check:text='Login' /&gt;" Guid="99c76206-409c-4bb9-80a0-1572d204918e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIEAAAAiCAYAAAB4KLoQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAG2SURBVHhe7ZsxSgNBGIX3HhYeQSFgLhHsbDzA6gXU0lbwBIK21hY2dpaCwUrSpbESBDvrcd+yT/+MM8kqirMzb+Ajy7//7Ia8b2aTIpXTKH5IAo1PCeqzWhTE5HjSJe9J4F7nohBG9ahLXhIUiyQQkkBIAtEgCYQkEAOV4Pbu0lU7lRsfbrqXp2mw5684Ot9r743X0PkhIgm+iSRIhP+UIEeKkODi+qTtJ7F5XOVg93Tb3T9cufX9tZbZ7GahhzsB6uxBP+atuk9qZC3B2/PjQigWGyywAvj0kcCfQ3B/vA/eJ0WyloB9AMeoWTEYkA0Su4bf11cCGzh3Hzs3VbKWwA+McD4Dil2PAfeVgKLF5qZKthLYlczVTfyAuGrtSg71oRaTwPYsq6eIdoImoN/YCfywY/UUyVoC+6sAc1CzOwRXPgND7affCfywY/UUGbQEMfjB2yBjPbwmw7VsHWx8CVISJEJfCdhvdwTgP/uJFQHHoSAlQaYwMBsuoDyrHjtDRxI0LHtsACtGjkiCjpgIuQsAJIGQBEISiAZJICSBkASiISgB/qCIE6IcOD4k0Ch3SILih3Pv1ltIUD3EXvsAAAAASUVORK5CYII=" InformativeScreenshot="cf09102d1bc5143ca46e7b73b5362f92.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Online Daily Time Record' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACiSURBVDhP7ZDBDYMwFEOzQldgBY699sSdFbpCVsgKTFCJFViBFViBFajfl1OlZzhiyYrjxP6BdONCPIfPW9ytx0bjb41f7B0QP6DNZrMTX/VQ69ropWHBC2hDI827SLgXKUPX4ij1yktWx/+mQ8p4BXr2nmL04ggZBs51+mSTS1l8iBQQRP9eEWlBOv4Dgku9zQlaE8jW8d3WETTj/MYppPQFKX+GeDZAp+QAAAAASUVORK5CYII=" InformativeScreenshot="e427b70268bfd9125d62c4e065a4e090.jpg" Selector="&lt;html app='chrome.exe' title='Online Daily Time Record' /&gt;" Title="Online Daily Time Record" Url="https://odtr.awsys-i.com/rp-odtr/DTRMainLoginv2.aspx" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
